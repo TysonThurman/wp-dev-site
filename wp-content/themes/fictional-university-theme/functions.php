@@ -15,3 +15,6 @@ function university_features(){
 }
 
 add_action('after_setup_theme', 'university_features');
+
+//only for test sites to get around the CURL error when installing plugins
+add_filter('https_ssl_verify', '__return_false');
