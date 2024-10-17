@@ -1,9 +1,3 @@
 node_modules
 package-lock.json
-<<<<<<< HEAD
-/build
-=======
-build/
-/build
-/build/
->>>>>>> refs/remotes/origin/main
+wp-content/**/build/
